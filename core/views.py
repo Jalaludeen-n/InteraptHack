@@ -7,6 +7,7 @@ class TestView(APIView):
         data = {
             'name':'deen',
             'age':'ds',
-            'hack':'works'
+            'hack':'works',
+            'this':'works'
         }
         return Response(data)
